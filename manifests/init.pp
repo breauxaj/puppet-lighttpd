@@ -1,5 +1,5 @@
 class lighttpd {
-  $required = $operatingsystem ? {
+  $required = $::operatingsystem ? {
     /(?i-mx:centos|fedora|redhat|scientific)/ => 'lighttpd',
   }
     
