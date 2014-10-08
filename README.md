@@ -13,6 +13,9 @@ Samples
 ```
 include lighttpd
 ```
+```
+lighttpd::service { 'default': ensure => running, enable => true }
+```
 
 License
 -------
